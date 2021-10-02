@@ -21,7 +21,7 @@ class Graph:
                 for k in self.graph[node]:
                     
                     n_path=list(path)
-                    print('path==>> ',n_path)
+                    #print('path==>> ',n_path)
                     n_path.append(k)
                     self.q.append(n_path)
                     
